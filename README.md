@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# carousel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+잘 알려져있는 캐러셀 라이브러리들을 통해서 여러 방법으로 캐러셀을 구현해보고, 라이브러리 없이 직접 캐러셀을 제작한다.
 
-## Available Scripts
+# 기능 
+- `App`컴포넌트의 props 중에서 `direction`의 값에 따라 이동 방향과 버튼의 위치가 변경된다.
+- 상/하 , 좌/우 의 버튼을 클릭하면 다음 항목이 슬라이드된다.
 
-In the project directory, you can run:
 
-### `npm start`
+# 사용 기술
+- react 
+- react-dom
+- typescript
+- react-responsive-carousel
+- react-slick , @types/react-slick, slick-carousel, @types/slick-carousel
+- antd
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 참고/검색 자료
+14 Top React Carousel Components [2022]
+https://alvarotrigo.com/blog/react-carousels/
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+react-slick
+https://github.com/akiran/react-slick
 
-### `npm run build`
+react-responsive-carousel
+https://www.npmjs.com/package/react-responsive-carousel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+antd
+https://ant.design/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 구현 이미지
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![GOMCAM 20221005_1750030229](https://user-images.githubusercontent.com/56331400/194021416-da6a888c-0638-4802-8d36-e362b2e30577.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GOMCAM 20221005_1748480082](https://user-images.githubusercontent.com/56331400/194021435-0f07bcef-13ab-42e3-9caf-2679bb2094b1.gif)
